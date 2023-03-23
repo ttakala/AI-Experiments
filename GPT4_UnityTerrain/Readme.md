@@ -54,6 +54,8 @@ Below you can see the terrain that I got from the resulting algorithm (after swi
 
 As you can see, all the basic elements are there, but it's very wonky. I asked ChatGPT to rewrite the 1st method to properly place the foliage, and the 3rd method to make the water behave like liquid, using point sources and 6-connected flood fill. Finally, I also asked ChatGPT to make the tree creation a bit more elaborate, requesting spherical tree foliage among other things. There were a few bugs in ChatGPT's code that I needed to fix, such as using FloorToInt in places where RoundToInt was required, and flood fill continuing beyond the voxel grid boundaries. I did slightly improve the code for things like exposing some of the script's private parameters to Unity's inspector, and adding my own hacks (particularly with the Perlin worms).
 
+[You can view my full dialogue with ChatGPT Plus here.](chat-gpt-unity-terrain-generation-with-ecs.html)
+
 ## Prerequisites
 
 The TerrainGenerator.cs was tested to work with Unity 2021.3.18f1 with the Entities and Hybrid Renderer packages installed (both at version 0.51.1-preview.21), as well as Universal RP package (version 12.1.10). If you use this script with a different Entities package version, you probably need to modify the CreateCube()-method within errainGenerator.cs, because the Entities API seems to be in a constant flux.
