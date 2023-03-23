@@ -13,7 +13,7 @@ TerrainGenerator.cs script as seen in Unity Editor.
 ![TerrainGenerator.cs script as seen in Unity Editor.](chatGPT_finalAlg_UI.jpg)
 
 This is the most complex terrain generator I could get with a single API request from gpt-4-0314 (included one system "primer" and one user prompt).
-![The most complex terrain generator I could get with a single API request from gpt-4-0314.](chatGPT_mostFeaturesWIth1Prompt.jpg)
+![The most complex terrain generator I could get with a single API request from gpt-4-0314.]()
 
 ##GPT4 prompts that generated this terrain generation code
 
