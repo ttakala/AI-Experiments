@@ -1,4 +1,4 @@
-# MineCraftish terrain generation Unity script by GPT4 (and a bug-fixing human)
+# MineCraftish terrain generation Unity script by GPT4 (and me)
 
 Example of generated 256 x 256 x 64 terrain:
 ![Example of generated 256 x 256 x 64 terrain](chatGPT_finalAlg_medium.jpg)
