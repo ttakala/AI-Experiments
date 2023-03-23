@@ -196,7 +196,7 @@ forming caves, ravines, and canyons.**
 Here's an implementation for the Pass2_PerlinWorms() method using Perlin
 worms to carve away some of the existing terrain:
 ```csharp
-    csharp[Header("Perlin Worm Settings")]
+    [Header("Perlin Worm Settings")]
     public int numberOfWorms = 10;
     public float wormRadius = 3.0f;
     public int wormLength = 100;
